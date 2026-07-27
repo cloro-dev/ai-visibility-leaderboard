@@ -1,0 +1,3521 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "week_start": "2026-07-27",
+    "generated_at": "2026-07-27T14:59:47.789Z",
+    "methodology_version": 1,
+    "methodology_url": "https://cloro.dev/ai-visibility/methodology/",
+    "canonical_url": "https://cloro.dev/ai-visibility/",
+    "repository_url": "https://github.com/cloro-dev/ai-visibility-leaderboard",
+    "publisher": {
+      "name": "cloro",
+      "url": "https://cloro.dev"
+    },
+    "license": {
+      "data": "CC-BY-4.0",
+      "data_url": "https://creativecommons.org/licenses/by/4.0/",
+      "code": "MIT",
+      "code_url": "https://opensource.org/license/mit"
+    },
+    "category_count": 12,
+    "brand_count": 120
+  },
+  "engines": [
+    {
+      "key": "chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "key": "perplexity",
+      "label": "Perplexity"
+    },
+    {
+      "key": "gemini",
+      "label": "Gemini"
+    },
+    {
+      "key": "copilot",
+      "label": "Copilot"
+    },
+    {
+      "key": "aimode",
+      "label": "Google AI Mode"
+    }
+  ],
+  "categories": [
+    {
+      "slug": "ai-visibility-platforms",
+      "name": "AI Visibility Platforms",
+      "description": "Tools that track how brands appear in ChatGPT, Perplexity, and other AI answers.",
+      "sample_size": {
+        "prompts": 5,
+        "responses": 25
+      },
+      "entries": [
+        {
+          "rank": 1,
+          "brand": "Profound",
+          "domain": "tryprofound.com",
+          "score": 55.3,
+          "share_of_voice": 0.32,
+          "mention_rate": 0.64,
+          "citation_rate": 0.2,
+          "avg_position": 1.5,
+          "mentions": 16,
+          "citations": 5,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.2,
+            "gemini": 0.6,
+            "copilot": 0.8,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "semrush.com",
+            "count": 9
+          }
+        },
+        {
+          "rank": 2,
+          "brand": "Otterly",
+          "domain": "otterly.ai",
+          "score": 49.8,
+          "share_of_voice": 0.32,
+          "mention_rate": 0.64,
+          "citation_rate": 0.08,
+          "avg_position": 1.9,
+          "mentions": 16,
+          "citations": 2,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.2,
+            "gemini": 0.6,
+            "copilot": 0.8,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "semrush.com",
+            "count": 9
+          }
+        },
+        {
+          "rank": 3,
+          "brand": "Peec AI",
+          "domain": "peec.ai",
+          "score": 37.5,
+          "share_of_voice": 0.24,
+          "mention_rate": 0.48,
+          "citation_rate": 0.04,
+          "avg_position": 2.3,
+          "mentions": 12,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0,
+            "gemini": 0.4,
+            "copilot": 0.8,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "reddit.com",
+            "count": 6
+          }
+        },
+        {
+          "rank": 4,
+          "brand": "Rankscale",
+          "domain": "rankscale.ai",
+          "score": 20.9,
+          "share_of_voice": 0.06,
+          "mention_rate": 0.12,
+          "citation_rate": 0.08,
+          "avg_position": 1.7,
+          "mentions": 3,
+          "citations": 2,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0.2,
+            "copilot": 0,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "useomnia.com",
+            "count": 6
+          }
+        },
+        {
+          "rank": 5,
+          "brand": "Scrunch AI",
+          "domain": "scrunchai.com",
+          "score": 11.8,
+          "share_of_voice": 0.06,
+          "mention_rate": 0.12,
+          "citation_rate": 0,
+          "avg_position": 3.3,
+          "mentions": 3,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0.2,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "nightwatch.io",
+            "count": 2
+          }
+        },
+        {
+          "rank": 6,
+          "brand": "cloro",
+          "domain": "cloro.dev",
+          "score": 1,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0.04,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        },
+        {
+          "rank": 7,
+          "brand": "Knowatoa",
+          "domain": "knowatoa.com",
+          "score": 1,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0.04,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 1,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        },
+        {
+          "rank": 8,
+          "brand": "Evertune",
+          "domain": "evertune.ai",
+          "score": 0,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 0,
+          "rank_delta": -1,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        },
+        {
+          "rank": 9,
+          "brand": "Promptwatch",
+          "domain": "promptwatch.io",
+          "score": 0,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        },
+        {
+          "rank": 10,
+          "brand": "Trakkr",
+          "domain": "trakkr.ai",
+          "score": 0,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        }
+      ],
+      "top_cited_domains": [
+        {
+          "hostname": "reddit.com",
+          "count": 11
+        },
+        {
+          "hostname": "semrush.com",
+          "count": 11
+        },
+        {
+          "hostname": "rankability.com",
+          "count": 10
+        },
+        {
+          "hostname": "llmpulse.ai",
+          "count": 8
+        },
+        {
+          "hostname": "youtube.com",
+          "count": 8
+        },
+        {
+          "hostname": "frase.io",
+          "count": 7
+        },
+        {
+          "hostname": "techradar.com",
+          "count": 7
+        },
+        {
+          "hostname": "trysight.ai",
+          "count": 7
+        },
+        {
+          "hostname": "useomnia.com",
+          "count": 7
+        },
+        {
+          "hostname": "tryprofound.com",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "backlink-analysis",
+      "name": "Backlink Analysis Tools",
+      "description": "Tools for analyzing link profiles, referring domains, and link quality.",
+      "sample_size": {
+        "prompts": 5,
+        "responses": 25
+      },
+      "entries": [
+        {
+          "rank": 1,
+          "brand": "Ahrefs",
+          "domain": "ahrefs.com",
+          "score": 78.9,
+          "share_of_voice": 0.247,
+          "mention_rate": 0.92,
+          "citation_rate": 0.44,
+          "avg_position": 1.3,
+          "mentions": 23,
+          "citations": 11,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.6,
+            "gemini": 1,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "ahrefs.com",
+            "count": 20
+          }
+        },
+        {
+          "rank": 2,
+          "brand": "Semrush",
+          "domain": "semrush.com",
+          "score": 75.8,
+          "share_of_voice": 0.247,
+          "mention_rate": 0.92,
+          "citation_rate": 0.44,
+          "avg_position": 1.8,
+          "mentions": 23,
+          "citations": 11,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.6,
+            "gemini": 1,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "ahrefs.com",
+            "count": 20
+          }
+        },
+        {
+          "rank": 3,
+          "brand": "Majestic",
+          "domain": "majestic.com",
+          "score": 51.2,
+          "share_of_voice": 0.204,
+          "mention_rate": 0.76,
+          "citation_rate": 0.04,
+          "avg_position": 3.3,
+          "mentions": 19,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.6,
+            "gemini": 0.6,
+            "copilot": 0.8,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "reddit.com",
+            "count": 19
+          }
+        },
+        {
+          "rank": 4,
+          "brand": "Moz",
+          "domain": "moz.com",
+          "score": 48.7,
+          "share_of_voice": 0.194,
+          "mention_rate": 0.72,
+          "citation_rate": 0.04,
+          "avg_position": 3.5,
+          "mentions": 18,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.6,
+            "gemini": 0.6,
+            "copilot": 0.8,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "ahrefs.com",
+            "count": 19
+          }
+        },
+        {
+          "rank": 5,
+          "brand": "BuzzStream",
+          "domain": "buzzstream.com",
+          "score": 16.3,
+          "share_of_voice": 0.043,
+          "mention_rate": 0.16,
+          "citation_rate": 0.08,
+          "avg_position": 3.3,
+          "mentions": 4,
+          "citations": 2,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0,
+            "gemini": 0.2,
+            "copilot": 0.2,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "aeoengine.ai",
+            "count": 6
+          }
+        },
+        {
+          "rank": 6,
+          "brand": "Serpstat",
+          "domain": "serpstat.com",
+          "score": 10.2,
+          "share_of_voice": 0.032,
+          "mention_rate": 0.12,
+          "citation_rate": 0,
+          "avg_position": 5,
+          "mentions": 3,
+          "citations": 0,
+          "rank_delta": 4,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0.2,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "techradar.com",
+            "count": 4
+          }
+        },
+        {
+          "rank": 7,
+          "brand": "Linkody",
+          "domain": "linkody.com",
+          "score": 8.2,
+          "share_of_voice": 0.022,
+          "mention_rate": 0.08,
+          "citation_rate": 0,
+          "avg_position": 4.5,
+          "mentions": 2,
+          "citations": 0,
+          "rank_delta": -1,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0.2,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "reddit.com",
+            "count": 6
+          }
+        },
+        {
+          "rank": 8,
+          "brand": "LinkResearchTools",
+          "domain": "linkresearchtools.com",
+          "score": 7.2,
+          "share_of_voice": 0.011,
+          "mention_rate": 0.04,
+          "citation_rate": 0.04,
+          "avg_position": 4,
+          "mentions": 1,
+          "citations": 1,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "youtube.com",
+            "count": 3
+          }
+        },
+        {
+          "rank": 9,
+          "brand": "Monitor Backlinks",
+          "domain": "monitorbacklinks.com",
+          "score": 0,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 0,
+          "rank_delta": -2,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        },
+        {
+          "rank": 10,
+          "brand": "SEO PowerSuite",
+          "domain": "seopowersuite.com",
+          "score": 0,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 0,
+          "rank_delta": -2,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        }
+      ],
+      "top_cited_domains": [
+        {
+          "hostname": "ahrefs.com",
+          "count": 22
+        },
+        {
+          "hostname": "reddit.com",
+          "count": 19
+        },
+        {
+          "hostname": "semrush.com",
+          "count": 17
+        },
+        {
+          "hostname": "techradar.com",
+          "count": 13
+        },
+        {
+          "hostname": "orangemonke.com",
+          "count": 10
+        },
+        {
+          "hostname": "seoprofy.com",
+          "count": 10
+        },
+        {
+          "hostname": "onelittleweb.com",
+          "count": 9
+        },
+        {
+          "hostname": "backlinko.com",
+          "count": 7
+        },
+        {
+          "hostname": "aeoengine.ai",
+          "count": 6
+        },
+        {
+          "hostname": "backlynk.io",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "brand-monitoring",
+      "name": "Brand Monitoring Tools",
+      "description": "Tools for tracking brand mentions across the web, news, and social media.",
+      "sample_size": {
+        "prompts": 5,
+        "responses": 25
+      },
+      "entries": [
+        {
+          "rank": 1,
+          "brand": "Brand24",
+          "domain": "brand24.com",
+          "score": 60.5,
+          "share_of_voice": 0.186,
+          "mention_rate": 0.72,
+          "citation_rate": 0.32,
+          "avg_position": 2.3,
+          "mentions": 18,
+          "citations": 8,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.4,
+            "gemini": 1,
+            "copilot": 0.6,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "shadow.inc",
+            "count": 15
+          }
+        },
+        {
+          "rank": 2,
+          "brand": "Mention",
+          "domain": "mention.com",
+          "score": 60,
+          "share_of_voice": 0.206,
+          "mention_rate": 0.8,
+          "citation_rate": 0.2,
+          "avg_position": 3.1,
+          "mentions": 20,
+          "citations": 5,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.6,
+            "gemini": 1,
+            "copilot": 0.4,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "shadow.inc",
+            "count": 15
+          }
+        },
+        {
+          "rank": 3,
+          "brand": "Meltwater",
+          "domain": "meltwater.com",
+          "score": 57.5,
+          "share_of_voice": 0.196,
+          "mention_rate": 0.76,
+          "citation_rate": 0.16,
+          "avg_position": 2.4,
+          "mentions": 19,
+          "citations": 4,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.2,
+            "gemini": 1,
+            "copilot": 0.8,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "shadow.inc",
+            "count": 14
+          }
+        },
+        {
+          "rank": 4,
+          "brand": "Brandwatch",
+          "domain": "brandwatch.com",
+          "score": 48.8,
+          "share_of_voice": 0.155,
+          "mention_rate": 0.6,
+          "citation_rate": 0.08,
+          "avg_position": 1.8,
+          "mentions": 15,
+          "citations": 2,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.2,
+            "gemini": 0.6,
+            "copilot": 1,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "youtube.com",
+            "count": 8
+          }
+        },
+        {
+          "rank": 5,
+          "brand": "Talkwalker",
+          "domain": "talkwalker.com",
+          "score": 34.7,
+          "share_of_voice": 0.124,
+          "mention_rate": 0.48,
+          "citation_rate": 0.04,
+          "avg_position": 3.4,
+          "mentions": 12,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.4,
+            "perplexity": 0.2,
+            "gemini": 0.4,
+            "copilot": 1,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "sproutsocial.com",
+            "count": 7
+          }
+        },
+        {
+          "rank": 6,
+          "brand": "Awario",
+          "domain": "awario.com",
+          "score": 22.1,
+          "share_of_voice": 0.072,
+          "mention_rate": 0.28,
+          "citation_rate": 0.08,
+          "avg_position": 4.7,
+          "mentions": 7,
+          "citations": 2,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0.4,
+            "copilot": 0.2,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "youtube.com",
+            "count": 9
+          }
+        },
+        {
+          "rank": 7,
+          "brand": "Prowly",
+          "domain": "prowly.com",
+          "score": 15.2,
+          "share_of_voice": 0.021,
+          "mention_rate": 0.08,
+          "citation_rate": 0.24,
+          "avg_position": 3.5,
+          "mentions": 2,
+          "citations": 6,
+          "rank_delta": -1,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "prowly.com",
+            "count": 5
+          }
+        },
+        {
+          "rank": 8,
+          "brand": "YouScan",
+          "domain": "youscan.io",
+          "score": 14.1,
+          "share_of_voice": 0.031,
+          "mention_rate": 0.12,
+          "citation_rate": 0.16,
+          "avg_position": 5.3,
+          "mentions": 3,
+          "citations": 4,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0,
+            "gemini": 0.2,
+            "copilot": 0,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "sproutsocial.com",
+            "count": 5
+          }
+        },
+        {
+          "rank": 9,
+          "brand": "BuzzSumo",
+          "domain": "buzzsumo.com",
+          "score": 5.4,
+          "share_of_voice": 0.01,
+          "mention_rate": 0.04,
+          "citation_rate": 0,
+          "avg_position": 5,
+          "mentions": 1,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "sprinklr.com",
+            "count": 1
+          }
+        },
+        {
+          "rank": 10,
+          "brand": "Keyhole",
+          "domain": "keyhole.co",
+          "score": 0,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        }
+      ],
+      "top_cited_domains": [
+        {
+          "hostname": "shadow.inc",
+          "count": 15
+        },
+        {
+          "hostname": "g2.com",
+          "count": 13
+        },
+        {
+          "hostname": "prowly.com",
+          "count": 12
+        },
+        {
+          "hostname": "brand24.com",
+          "count": 11
+        },
+        {
+          "hostname": "mention.com",
+          "count": 11
+        },
+        {
+          "hostname": "reddit.com",
+          "count": 11
+        },
+        {
+          "hostname": "youtube.com",
+          "count": 10
+        },
+        {
+          "hostname": "sprinklr.com",
+          "count": 9
+        },
+        {
+          "hostname": "sproutsocial.com",
+          "count": 9
+        },
+        {
+          "hostname": "brandmentions.com",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "slug": "content-optimization",
+      "name": "Content Optimization Tools",
+      "description": "Tools that grade and optimize content against search intent and competitors.",
+      "sample_size": {
+        "prompts": 5,
+        "responses": 25
+      },
+      "entries": [
+        {
+          "rank": 1,
+          "brand": "Surfer",
+          "domain": "surferseo.com",
+          "score": 74.5,
+          "share_of_voice": 0.289,
+          "mention_rate": 0.88,
+          "citation_rate": 0.36,
+          "avg_position": 1.4,
+          "mentions": 22,
+          "citations": 9,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.4,
+            "gemini": 1,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "rankability.com",
+            "count": 14
+          }
+        },
+        {
+          "rank": 2,
+          "brand": "Clearscope",
+          "domain": "clearscope.io",
+          "score": 62.2,
+          "share_of_voice": 0.276,
+          "mention_rate": 0.84,
+          "citation_rate": 0.2,
+          "avg_position": 2.4,
+          "mentions": 21,
+          "citations": 5,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.4,
+            "gemini": 1,
+            "copilot": 1,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "rankability.com",
+            "count": 14
+          }
+        },
+        {
+          "rank": 3,
+          "brand": "Frase",
+          "domain": "frase.io",
+          "score": 37.8,
+          "share_of_voice": 0.171,
+          "mention_rate": 0.52,
+          "citation_rate": 0.04,
+          "avg_position": 2.8,
+          "mentions": 13,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.2,
+            "gemini": 0.4,
+            "copilot": 0.4,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "rankability.com",
+            "count": 7
+          }
+        },
+        {
+          "rank": 4,
+          "brand": "MarketMuse",
+          "domain": "marketmuse.com",
+          "score": 35.2,
+          "share_of_voice": 0.118,
+          "mention_rate": 0.36,
+          "citation_rate": 0.12,
+          "avg_position": 2,
+          "mentions": 9,
+          "citations": 3,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.2,
+            "gemini": 0.2,
+            "copilot": 0.2,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "xseek.io",
+            "count": 8
+          }
+        },
+        {
+          "rank": 5,
+          "brand": "Scalenut",
+          "domain": "scalenut.com",
+          "score": 12.9,
+          "share_of_voice": 0.039,
+          "mention_rate": 0.12,
+          "citation_rate": 0.08,
+          "avg_position": 4.3,
+          "mentions": 3,
+          "citations": 2,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "eesel.ai",
+            "count": 3
+          }
+        },
+        {
+          "rank": 6,
+          "brand": "NeuronWriter",
+          "domain": "neuronwriter.com",
+          "score": 12.7,
+          "share_of_voice": 0.053,
+          "mention_rate": 0.16,
+          "citation_rate": 0,
+          "avg_position": 5,
+          "mentions": 4,
+          "citations": 0,
+          "rank_delta": -1,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "onelittleweb.com",
+            "count": 3
+          }
+        },
+        {
+          "rank": 7,
+          "brand": "Dashword",
+          "domain": "dashword.com",
+          "score": 9.6,
+          "share_of_voice": 0.039,
+          "mention_rate": 0.12,
+          "citation_rate": 0,
+          "avg_position": 6.3,
+          "mentions": 3,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "contentharmony.com",
+            "count": 2
+          }
+        },
+        {
+          "rank": 8,
+          "brand": "Outranking",
+          "domain": "outranking.io",
+          "score": 4.3,
+          "share_of_voice": 0.013,
+          "mention_rate": 0.04,
+          "citation_rate": 0,
+          "avg_position": 8,
+          "mentions": 1,
+          "citations": 0,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "searchatlas.com",
+            "count": 1
+          }
+        },
+        {
+          "rank": 9,
+          "brand": "Letterdrop",
+          "domain": "letterdrop.com",
+          "score": 0,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 0,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        },
+        {
+          "rank": 10,
+          "brand": "Page Optimizer Pro",
+          "domain": "pageoptimizer.pro",
+          "score": 0,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 0,
+          "rank_delta": -2,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        }
+      ],
+      "top_cited_domains": [
+        {
+          "hostname": "rankability.com",
+          "count": 18
+        },
+        {
+          "hostname": "surferseo.com",
+          "count": 14
+        },
+        {
+          "hostname": "onelittleweb.com",
+          "count": 10
+        },
+        {
+          "hostname": "techradar.com",
+          "count": 10
+        },
+        {
+          "hostname": "clearscope.io",
+          "count": 8
+        },
+        {
+          "hostname": "xseek.io",
+          "count": 8
+        },
+        {
+          "hostname": "piperocket.digital",
+          "count": 7
+        },
+        {
+          "hostname": "zapier.com",
+          "count": 7
+        },
+        {
+          "hostname": "aioseo.com",
+          "count": 6
+        },
+        {
+          "hostname": "blog.hubspot.com",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "keyword-research",
+      "name": "Keyword Research Tools",
+      "description": "Tools for finding and evaluating search keywords and topics.",
+      "sample_size": {
+        "prompts": 5,
+        "responses": 25
+      },
+      "entries": [
+        {
+          "rank": 1,
+          "brand": "Semrush",
+          "domain": "semrush.com",
+          "score": 72.5,
+          "share_of_voice": 0.222,
+          "mention_rate": 0.88,
+          "citation_rate": 0.36,
+          "avg_position": 1.7,
+          "mentions": 22,
+          "citations": 9,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.6,
+            "gemini": 0.8,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "techradar.com",
+            "count": 14
+          }
+        },
+        {
+          "rank": 2,
+          "brand": "Ahrefs",
+          "domain": "ahrefs.com",
+          "score": 65.5,
+          "share_of_voice": 0.212,
+          "mention_rate": 0.84,
+          "citation_rate": 0.24,
+          "avg_position": 2,
+          "mentions": 21,
+          "citations": 6,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.6,
+            "gemini": 0.6,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "techradar.com",
+            "count": 14
+          }
+        },
+        {
+          "rank": 3,
+          "brand": "AnswerThePublic",
+          "domain": "answerthepublic.com",
+          "score": 46.5,
+          "share_of_voice": 0.172,
+          "mention_rate": 0.68,
+          "citation_rate": 0,
+          "avg_position": 3.6,
+          "mentions": 17,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.8,
+            "gemini": 0.6,
+            "copilot": 0.4,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "techradar.com",
+            "count": 14
+          }
+        },
+        {
+          "rank": 4,
+          "brand": "KWFinder",
+          "domain": "kwfinder.com",
+          "score": 37.4,
+          "share_of_voice": 0.131,
+          "mention_rate": 0.52,
+          "citation_rate": 0,
+          "avg_position": 3.1,
+          "mentions": 13,
+          "citations": 0,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.4,
+            "gemini": 0.6,
+            "copilot": 0.8,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "marketermilk.com",
+            "count": 9
+          }
+        },
+        {
+          "rank": 5,
+          "brand": "Ubersuggest",
+          "domain": "neilpatel.com",
+          "score": 32.9,
+          "share_of_voice": 0.121,
+          "mention_rate": 0.48,
+          "citation_rate": 0,
+          "avg_position": 4,
+          "mentions": 12,
+          "citations": 0,
+          "rank_delta": -1,
+          "engines": {
+            "chatgpt": 0.4,
+            "perplexity": 0.6,
+            "gemini": 0.2,
+            "copilot": 0.4,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "techradar.com",
+            "count": 9
+          }
+        },
+        {
+          "rank": 6,
+          "brand": "LowFruits",
+          "domain": "lowfruits.io",
+          "score": 28.4,
+          "share_of_voice": 0.061,
+          "mention_rate": 0.24,
+          "citation_rate": 0.2,
+          "avg_position": 3,
+          "mentions": 6,
+          "citations": 5,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.2,
+            "gemini": 0.2,
+            "copilot": 0.2,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "semrush.com",
+            "count": 5
+          }
+        },
+        {
+          "rank": 7,
+          "brand": "Keywords Everywhere",
+          "domain": "keywordseverywhere.com",
+          "score": 14.7,
+          "share_of_voice": 0.04,
+          "mention_rate": 0.16,
+          "citation_rate": 0.08,
+          "avg_position": 5,
+          "mentions": 4,
+          "citations": 2,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "searchatlas.com",
+            "count": 5
+          }
+        },
+        {
+          "rank": 8,
+          "brand": "KeySearch",
+          "domain": "keysearch.co",
+          "score": 8.2,
+          "share_of_voice": 0.02,
+          "mention_rate": 0.08,
+          "citation_rate": 0,
+          "avg_position": 5.5,
+          "mentions": 2,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0.2,
+            "copilot": 0,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "marketermilk.com",
+            "count": 7
+          }
+        },
+        {
+          "rank": 9,
+          "brand": "Wordtracker",
+          "domain": "wordtracker.com",
+          "score": 5.9,
+          "share_of_voice": 0.01,
+          "mention_rate": 0.04,
+          "citation_rate": 0.04,
+          "avg_position": 6,
+          "mentions": 1,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "wordtracker.com",
+            "count": 1
+          }
+        },
+        {
+          "rank": 10,
+          "brand": "Keyword Insights",
+          "domain": "keywordinsights.ai",
+          "score": 4.9,
+          "share_of_voice": 0.01,
+          "mention_rate": 0.04,
+          "citation_rate": 0,
+          "avg_position": 6,
+          "mentions": 1,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "searchenginejournal.com",
+            "count": 1
+          }
+        }
+      ],
+      "top_cited_domains": [
+        {
+          "hostname": "techradar.com",
+          "count": 14
+        },
+        {
+          "hostname": "zapier.com",
+          "count": 12
+        },
+        {
+          "hostname": "semrush.com",
+          "count": 11
+        },
+        {
+          "hostname": "marketermilk.com",
+          "count": 10
+        },
+        {
+          "hostname": "yotpo.com",
+          "count": 10
+        },
+        {
+          "hostname": "ahrefs.com",
+          "count": 8
+        },
+        {
+          "hostname": "mangools.com",
+          "count": 7
+        },
+        {
+          "hostname": "medium.com",
+          "count": 7
+        },
+        {
+          "hostname": "seo.com",
+          "count": 7
+        },
+        {
+          "hostname": "youtube.com",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "slug": "proxy-providers",
+      "name": "Proxy Providers",
+      "description": "Residential, datacenter, and mobile proxy networks for data collection.",
+      "sample_size": {
+        "prompts": 5,
+        "responses": 25
+      },
+      "entries": [
+        {
+          "rank": 1,
+          "brand": "Bright Data",
+          "domain": "brightdata.com",
+          "score": 75,
+          "share_of_voice": 0.184,
+          "mention_rate": 0.84,
+          "citation_rate": 0.48,
+          "avg_position": 1.4,
+          "mentions": 21,
+          "citations": 12,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.4,
+            "gemini": 0.8,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "brightdata.com",
+            "count": 19
+          }
+        },
+        {
+          "rank": 2,
+          "brand": "Oxylabs",
+          "domain": "oxylabs.io",
+          "score": 61.3,
+          "share_of_voice": 0.184,
+          "mention_rate": 0.84,
+          "citation_rate": 0.12,
+          "avg_position": 2.2,
+          "mentions": 21,
+          "citations": 3,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.4,
+            "gemini": 0.8,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "brightdata.com",
+            "count": 19
+          }
+        },
+        {
+          "rank": 3,
+          "brand": "Decodo",
+          "domain": "decodo.com",
+          "score": 58.8,
+          "share_of_voice": 0.184,
+          "mention_rate": 0.84,
+          "citation_rate": 0.08,
+          "avg_position": 2.7,
+          "mentions": 21,
+          "citations": 2,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.4,
+            "gemini": 1,
+            "copilot": 0.8,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "dataimpulse.com",
+            "count": 21
+          }
+        },
+        {
+          "rank": 4,
+          "brand": "IPRoyal",
+          "domain": "iproyal.com",
+          "score": 53.4,
+          "share_of_voice": 0.149,
+          "mention_rate": 0.68,
+          "citation_rate": 0.32,
+          "avg_position": 4.5,
+          "mentions": 17,
+          "citations": 8,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.2,
+            "gemini": 0.8,
+            "copilot": 0.6,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "aimultiple.com",
+            "count": 16
+          }
+        },
+        {
+          "rank": 5,
+          "brand": "Webshare",
+          "domain": "webshare.io",
+          "score": 28.4,
+          "share_of_voice": 0.088,
+          "mention_rate": 0.4,
+          "citation_rate": 0.04,
+          "avg_position": 5,
+          "mentions": 10,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0,
+            "gemini": 0.4,
+            "copilot": 0.4,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "proxyway.com",
+            "count": 13
+          }
+        },
+        {
+          "rank": 6,
+          "brand": "SOAX",
+          "domain": "soax.com",
+          "score": 24.8,
+          "share_of_voice": 0.079,
+          "mention_rate": 0.36,
+          "citation_rate": 0,
+          "avg_position": 4.9,
+          "mentions": 9,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.2,
+            "gemini": 0.2,
+            "copilot": 0.6,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "dataimpulse.com",
+            "count": 8
+          }
+        },
+        {
+          "rank": 7,
+          "brand": "NetNut",
+          "domain": "netnut.io",
+          "score": 18.5,
+          "share_of_voice": 0.053,
+          "mention_rate": 0.24,
+          "citation_rate": 0.04,
+          "avg_position": 5,
+          "mentions": 6,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0.4,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "brightdata.com",
+            "count": 8
+          }
+        },
+        {
+          "rank": 8,
+          "brand": "Zyte",
+          "domain": "zyte.com",
+          "score": 16.9,
+          "share_of_voice": 0.035,
+          "mention_rate": 0.16,
+          "citation_rate": 0.16,
+          "avg_position": 4.8,
+          "mentions": 4,
+          "citations": 4,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "brightdata.com",
+            "count": 5
+          }
+        },
+        {
+          "rank": 9,
+          "brand": "Infatica",
+          "domain": "infatica.io",
+          "score": 11.1,
+          "share_of_voice": 0.026,
+          "mention_rate": 0.12,
+          "citation_rate": 0.04,
+          "avg_position": 5.7,
+          "mentions": 3,
+          "citations": 1,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0.2,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "toptierproxy.com",
+            "count": 1
+          }
+        },
+        {
+          "rank": 10,
+          "brand": "Rayobyte",
+          "domain": "rayobyte.com",
+          "score": 7.4,
+          "share_of_voice": 0.018,
+          "mention_rate": 0.08,
+          "citation_rate": 0,
+          "avg_position": 6,
+          "mentions": 2,
+          "citations": 0,
+          "rank_delta": -1,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0.4,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "worldmetrics.org",
+            "count": 1
+          }
+        }
+      ],
+      "top_cited_domains": [
+        {
+          "hostname": "dataimpulse.com",
+          "count": 24
+        },
+        {
+          "hostname": "aimultiple.com",
+          "count": 21
+        },
+        {
+          "hostname": "brightdata.com",
+          "count": 21
+        },
+        {
+          "hostname": "proxyway.com",
+          "count": 16
+        },
+        {
+          "hostname": "iproyal.com",
+          "count": 11
+        },
+        {
+          "hostname": "firecrawl.dev",
+          "count": 9
+        },
+        {
+          "hostname": "techradar.com",
+          "count": 8
+        },
+        {
+          "hostname": "youtube.com",
+          "count": 8
+        },
+        {
+          "hostname": "browserbase.com",
+          "count": 7
+        },
+        {
+          "hostname": "proxidize.com",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "slug": "rank-tracking",
+      "name": "Rank Trackers",
+      "description": "Dedicated tools for tracking keyword positions in search engines.",
+      "sample_size": {
+        "prompts": 5,
+        "responses": 25
+      },
+      "entries": [
+        {
+          "rank": 1,
+          "brand": "SE Ranking",
+          "domain": "seranking.com",
+          "score": 67.3,
+          "share_of_voice": 0.198,
+          "mention_rate": 0.88,
+          "citation_rate": 0.28,
+          "avg_position": 2.7,
+          "mentions": 22,
+          "citations": 7,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.8,
+            "gemini": 1,
+            "copilot": 0.8,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "nightwatch.io",
+            "count": 30
+          }
+        },
+        {
+          "rank": 2,
+          "brand": "AccuRanker",
+          "domain": "accuranker.com",
+          "score": 59.6,
+          "share_of_voice": 0.18,
+          "mention_rate": 0.8,
+          "citation_rate": 0.04,
+          "avg_position": 1.8,
+          "mentions": 20,
+          "citations": 1,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.6,
+            "gemini": 0.8,
+            "copilot": 1,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "nightwatch.io",
+            "count": 25
+          }
+        },
+        {
+          "rank": 3,
+          "brand": "Semrush",
+          "domain": "semrush.com",
+          "score": 55.4,
+          "share_of_voice": 0.18,
+          "mention_rate": 0.8,
+          "citation_rate": 0.04,
+          "avg_position": 3.1,
+          "mentions": 20,
+          "citations": 1,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.4,
+            "gemini": 1,
+            "copilot": 1,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "nightwatch.io",
+            "count": 28
+          }
+        },
+        {
+          "rank": 4,
+          "brand": "Nightwatch",
+          "domain": "nightwatch.io",
+          "score": 52.6,
+          "share_of_voice": 0.126,
+          "mention_rate": 0.56,
+          "citation_rate": 0.48,
+          "avg_position": 3.7,
+          "mentions": 14,
+          "citations": 12,
+          "rank_delta": -3,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.4,
+            "gemini": 0.8,
+            "copilot": 0.4,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "nightwatch.io",
+            "count": 28
+          }
+        },
+        {
+          "rank": 5,
+          "brand": "Ahrefs",
+          "domain": "ahrefs.com",
+          "score": 43.1,
+          "share_of_voice": 0.144,
+          "mention_rate": 0.64,
+          "citation_rate": 0,
+          "avg_position": 3.6,
+          "mentions": 16,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.2,
+            "gemini": 0.6,
+            "copilot": 1,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "nightwatch.io",
+            "count": 23
+          }
+        },
+        {
+          "rank": 6,
+          "brand": "Wincher",
+          "domain": "wincher.com",
+          "score": 27.2,
+          "share_of_voice": 0.081,
+          "mention_rate": 0.36,
+          "citation_rate": 0,
+          "avg_position": 3.7,
+          "mentions": 9,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.2,
+            "gemini": 0.4,
+            "copilot": 0.6,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "nightwatch.io",
+            "count": 14
+          }
+        },
+        {
+          "rank": 7,
+          "brand": "Advanced Web Ranking",
+          "domain": "advancedwebranking.com",
+          "score": 16,
+          "share_of_voice": 0.045,
+          "mention_rate": 0.2,
+          "citation_rate": 0,
+          "avg_position": 4,
+          "mentions": 5,
+          "citations": 0,
+          "rank_delta": 2,
+          "engines": {
+            "chatgpt": 0.4,
+            "perplexity": 0,
+            "gemini": 0.4,
+            "copilot": 0.2,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "thedigitalprojectmanager.com",
+            "count": 6
+          }
+        },
+        {
+          "rank": 8,
+          "brand": "ProRankTracker",
+          "domain": "proranktracker.com",
+          "score": 10.8,
+          "share_of_voice": 0.018,
+          "mention_rate": 0.08,
+          "citation_rate": 0.08,
+          "avg_position": 4,
+          "mentions": 2,
+          "citations": 2,
+          "rank_delta": -1,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "searchatlas.com",
+            "count": 3
+          }
+        },
+        {
+          "rank": 9,
+          "brand": "Moz",
+          "domain": "moz.com",
+          "score": 9.6,
+          "share_of_voice": 0.027,
+          "mention_rate": 0.12,
+          "citation_rate": 0,
+          "avg_position": 6.3,
+          "mentions": 3,
+          "citations": 0,
+          "rank_delta": -1,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "accuranker.com",
+            "count": 5
+          }
+        },
+        {
+          "rank": 10,
+          "brand": "Serpwatch",
+          "domain": "serpwatch.io",
+          "score": 0,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        }
+      ],
+      "top_cited_domains": [
+        {
+          "hostname": "nightwatch.io",
+          "count": 30
+        },
+        {
+          "hostname": "keyword.com",
+          "count": 14
+        },
+        {
+          "hostname": "onelittleweb.com",
+          "count": 9
+        },
+        {
+          "hostname": "seranking.com",
+          "count": 8
+        },
+        {
+          "hostname": "techradar.com",
+          "count": 8
+        },
+        {
+          "hostname": "thedigitalprojectmanager.com",
+          "count": 7
+        },
+        {
+          "hostname": "trafficthinktank.com",
+          "count": 6
+        },
+        {
+          "hostname": "accuranker.com",
+          "count": 5
+        },
+        {
+          "hostname": "agencyanalytics.com",
+          "count": 5
+        },
+        {
+          "hostname": "alphonsolabs.com",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "slug": "seo-crawlers",
+      "name": "SEO Crawlers & Site Audit",
+      "description": "Technical SEO crawlers and site-audit tools for finding on-site issues.",
+      "sample_size": {
+        "prompts": 5,
+        "responses": 25
+      },
+      "entries": [
+        {
+          "rank": 1,
+          "brand": "Screaming Frog",
+          "domain": "screamingfrog.co.uk",
+          "score": 69.9,
+          "share_of_voice": 0.2,
+          "mention_rate": 0.92,
+          "citation_rate": 0.04,
+          "avg_position": 1.3,
+          "mentions": 23,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.6,
+            "gemini": 1,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "singlegrain.com",
+            "count": 10
+          }
+        },
+        {
+          "rank": 2,
+          "brand": "Sitebulb",
+          "domain": "sitebulb.com",
+          "score": 69.4,
+          "share_of_voice": 0.191,
+          "mention_rate": 0.88,
+          "citation_rate": 0.4,
+          "avg_position": 2.6,
+          "mentions": 22,
+          "citations": 10,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.6,
+            "gemini": 0.8,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "singlegrain.com",
+            "count": 10
+          }
+        },
+        {
+          "rank": 3,
+          "brand": "Semrush Site Audit",
+          "domain": "semrush.com",
+          "score": 55.8,
+          "share_of_voice": 0.157,
+          "mention_rate": 0.72,
+          "citation_rate": 0.28,
+          "avg_position": 3.6,
+          "mentions": 18,
+          "citations": 7,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.4,
+            "gemini": 0.8,
+            "copilot": 0.6,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "singlegrain.com",
+            "count": 10
+          }
+        },
+        {
+          "rank": 4,
+          "brand": "Lumar",
+          "domain": "lumar.io",
+          "score": 50.1,
+          "share_of_voice": 0.165,
+          "mention_rate": 0.76,
+          "citation_rate": 0,
+          "avg_position": 3.7,
+          "mentions": 19,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.6,
+            "gemini": 0.6,
+            "copilot": 1,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "semrush.com",
+            "count": 9
+          }
+        },
+        {
+          "rank": 5,
+          "brand": "Botify",
+          "domain": "botify.com",
+          "score": 30.4,
+          "share_of_voice": 0.096,
+          "mention_rate": 0.44,
+          "citation_rate": 0,
+          "avg_position": 4.2,
+          "mentions": 11,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.4,
+            "gemini": 0.8,
+            "copilot": 0.6,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "newsdata.io",
+            "count": 7
+          }
+        },
+        {
+          "rank": 6,
+          "brand": "JetOctopus",
+          "domain": "jetoctopus.com",
+          "score": 24,
+          "share_of_voice": 0.07,
+          "mention_rate": 0.32,
+          "citation_rate": 0,
+          "avg_position": 3.8,
+          "mentions": 8,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.2,
+            "gemini": 0.2,
+            "copilot": 0.2,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "newsdata.io",
+            "count": 8
+          }
+        },
+        {
+          "rank": 7,
+          "brand": "Oncrawl",
+          "domain": "oncrawl.com",
+          "score": 17.8,
+          "share_of_voice": 0.052,
+          "mention_rate": 0.24,
+          "citation_rate": 0,
+          "avg_position": 4.8,
+          "mentions": 6,
+          "citations": 0,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.6,
+            "gemini": 0.2,
+            "copilot": 0.2,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "reddit.com",
+            "count": 3
+          }
+        },
+        {
+          "rank": 8,
+          "brand": "Netpeak Spider",
+          "domain": "netpeaksoftware.com",
+          "score": 16,
+          "share_of_voice": 0.043,
+          "mention_rate": 0.2,
+          "citation_rate": 0,
+          "avg_position": 4.2,
+          "mentions": 5,
+          "citations": 0,
+          "rank_delta": -1,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.2,
+            "gemini": 0.2,
+            "copilot": 0.2,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "blog.contentforce.ai",
+            "count": 4
+          }
+        },
+        {
+          "rank": 9,
+          "brand": "ContentKing",
+          "domain": "contentkingapp.com",
+          "score": 9.9,
+          "share_of_voice": 0.026,
+          "mention_rate": 0.12,
+          "citation_rate": 0,
+          "avg_position": 6,
+          "mentions": 3,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0.2,
+            "copilot": 0,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "youtube.com",
+            "count": 2
+          }
+        },
+        {
+          "rank": 10,
+          "brand": "Ryte",
+          "domain": "ryte.com",
+          "score": 0,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        }
+      ],
+      "top_cited_domains": [
+        {
+          "hostname": "singlegrain.com",
+          "count": 11
+        },
+        {
+          "hostname": "reddit.com",
+          "count": 10
+        },
+        {
+          "hostname": "semrush.com",
+          "count": 10
+        },
+        {
+          "hostname": "techradar.com",
+          "count": 10
+        },
+        {
+          "hostname": "worldmetrics.org",
+          "count": 10
+        },
+        {
+          "hostname": "newsdata.io",
+          "count": 9
+        },
+        {
+          "hostname": "sitebulb.com",
+          "count": 9
+        },
+        {
+          "hostname": "searchatlas.com",
+          "count": 6
+        },
+        {
+          "hostname": "aioseo.com",
+          "count": 5
+        },
+        {
+          "hostname": "internetzonei.com",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "slug": "seo-platforms",
+      "name": "SEO Platforms",
+      "description": "All-in-one SEO suites covering research, audits, tracking, and reporting.",
+      "sample_size": {
+        "prompts": 5,
+        "responses": 25
+      },
+      "entries": [
+        {
+          "rank": 1,
+          "brand": "Semrush",
+          "domain": "semrush.com",
+          "score": 76.1,
+          "share_of_voice": 0.284,
+          "mention_rate": 1,
+          "citation_rate": 0.12,
+          "avg_position": 1.4,
+          "mentions": 25,
+          "citations": 3,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 1,
+            "gemini": 1,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "techradar.com",
+            "count": 12
+          }
+        },
+        {
+          "rank": 2,
+          "brand": "Ahrefs",
+          "domain": "ahrefs.com",
+          "score": 64.9,
+          "share_of_voice": 0.261,
+          "mention_rate": 0.92,
+          "citation_rate": 0.12,
+          "avg_position": 2.5,
+          "mentions": 23,
+          "citations": 3,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.8,
+            "gemini": 0.8,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "techradar.com",
+            "count": 12
+          }
+        },
+        {
+          "rank": 3,
+          "brand": "SE Ranking",
+          "domain": "seranking.com",
+          "score": 38.9,
+          "share_of_voice": 0.136,
+          "mention_rate": 0.48,
+          "citation_rate": 0.16,
+          "avg_position": 3.1,
+          "mentions": 12,
+          "citations": 4,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.4,
+            "perplexity": 0.4,
+            "gemini": 0.4,
+            "copilot": 0.2,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "zapier.com",
+            "count": 7
+          }
+        },
+        {
+          "rank": 4,
+          "brand": "Conductor",
+          "domain": "conductor.com",
+          "score": 32.1,
+          "share_of_voice": 0.091,
+          "mention_rate": 0.32,
+          "citation_rate": 0.2,
+          "avg_position": 2.5,
+          "mentions": 8,
+          "citations": 5,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.4,
+            "gemini": 0.4,
+            "copilot": 0.4,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "conductor.com",
+            "count": 10
+          }
+        },
+        {
+          "rank": 5,
+          "brand": "BrightEdge",
+          "domain": "brightedge.com",
+          "score": 26.3,
+          "share_of_voice": 0.08,
+          "mention_rate": 0.28,
+          "citation_rate": 0.08,
+          "avg_position": 2.4,
+          "mentions": 7,
+          "citations": 2,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.4,
+            "gemini": 0.2,
+            "copilot": 0.4,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "conductor.com",
+            "count": 10
+          }
+        },
+        {
+          "rank": 6,
+          "brand": "Moz",
+          "domain": "moz.com",
+          "score": 19.3,
+          "share_of_voice": 0.068,
+          "mention_rate": 0.24,
+          "citation_rate": 0,
+          "avg_position": 3.3,
+          "mentions": 6,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.4,
+            "perplexity": 0.4,
+            "gemini": 0,
+            "copilot": 0.2,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "techradar.com",
+            "count": 3
+          }
+        },
+        {
+          "rank": 7,
+          "brand": "Mangools",
+          "domain": "mangools.com",
+          "score": 12.7,
+          "share_of_voice": 0.045,
+          "mention_rate": 0.16,
+          "citation_rate": 0,
+          "avg_position": 5,
+          "mentions": 4,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "zapier.com",
+            "count": 4
+          }
+        },
+        {
+          "rank": 8,
+          "brand": "Serpstat",
+          "domain": "serpstat.com",
+          "score": 7.6,
+          "share_of_voice": 0.023,
+          "mention_rate": 0.08,
+          "citation_rate": 0,
+          "avg_position": 6,
+          "mentions": 2,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "brightedge.com",
+            "count": 2
+          }
+        },
+        {
+          "rank": 9,
+          "brand": "SpyFu",
+          "domain": "spyfu.com",
+          "score": 4.1,
+          "share_of_voice": 0.011,
+          "mention_rate": 0.04,
+          "citation_rate": 0,
+          "avg_position": 9,
+          "mentions": 1,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "brightedge.com",
+            "count": 2
+          }
+        },
+        {
+          "rank": 10,
+          "brand": "Sistrix",
+          "domain": "sistrix.com",
+          "score": 0,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        }
+      ],
+      "top_cited_domains": [
+        {
+          "hostname": "techradar.com",
+          "count": 12
+        },
+        {
+          "hostname": "reddit.com",
+          "count": 11
+        },
+        {
+          "hostname": "conductor.com",
+          "count": 10
+        },
+        {
+          "hostname": "onelittleweb.com",
+          "count": 8
+        },
+        {
+          "hostname": "zapier.com",
+          "count": 8
+        },
+        {
+          "hostname": "g2.com",
+          "count": 6
+        },
+        {
+          "hostname": "trysight.ai",
+          "count": 6
+        },
+        {
+          "hostname": "ahrefs.com",
+          "count": 5
+        },
+        {
+          "hostname": "aioseo.com",
+          "count": 5
+        },
+        {
+          "hostname": "seomator.com",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "slug": "serp-apis",
+      "name": "SERP APIs",
+      "description": "APIs that return structured Google and other search-engine results at scale.",
+      "sample_size": {
+        "prompts": 5,
+        "responses": 25
+      },
+      "entries": [
+        {
+          "rank": 1,
+          "brand": "SerpApi",
+          "domain": "serpapi.com",
+          "score": 75.4,
+          "share_of_voice": 0.2,
+          "mention_rate": 0.88,
+          "citation_rate": 0.44,
+          "avg_position": 1.7,
+          "mentions": 22,
+          "citations": 11,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.6,
+            "gemini": 1,
+            "copilot": 0.8,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "cloro.dev",
+            "count": 20
+          }
+        },
+        {
+          "rank": 2,
+          "brand": "DataForSEO",
+          "domain": "dataforseo.com",
+          "score": 62.7,
+          "share_of_voice": 0.191,
+          "mention_rate": 0.84,
+          "citation_rate": 0.16,
+          "avg_position": 2.6,
+          "mentions": 21,
+          "citations": 4,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.6,
+            "gemini": 0.8,
+            "copilot": 1,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "cloro.dev",
+            "count": 20
+          }
+        },
+        {
+          "rank": 3,
+          "brand": "Bright Data",
+          "domain": "brightdata.com",
+          "score": 52,
+          "share_of_voice": 0.155,
+          "mention_rate": 0.68,
+          "citation_rate": 0.28,
+          "avg_position": 4,
+          "mentions": 17,
+          "citations": 7,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.6,
+            "gemini": 0.6,
+            "copilot": 0.6,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "cloro.dev",
+            "count": 12
+          }
+        },
+        {
+          "rank": 4,
+          "brand": "Serper",
+          "domain": "serper.dev",
+          "score": 43.1,
+          "share_of_voice": 0.136,
+          "mention_rate": 0.6,
+          "citation_rate": 0.04,
+          "avg_position": 3.1,
+          "mentions": 15,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.4,
+            "gemini": 0.8,
+            "copilot": 0.4,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "cloro.dev",
+            "count": 20
+          }
+        },
+        {
+          "rank": 5,
+          "brand": "Oxylabs",
+          "domain": "oxylabs.io",
+          "score": 39.4,
+          "share_of_voice": 0.109,
+          "mention_rate": 0.48,
+          "citation_rate": 0.28,
+          "avg_position": 4.8,
+          "mentions": 12,
+          "citations": 7,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.4,
+            "gemini": 0.2,
+            "copilot": 0.4,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "cloro.dev",
+            "count": 12
+          }
+        },
+        {
+          "rank": 6,
+          "brand": "cloro",
+          "domain": "cloro.dev",
+          "score": 29,
+          "share_of_voice": 0.045,
+          "mention_rate": 0.2,
+          "citation_rate": 0.44,
+          "avg_position": 3.8,
+          "mentions": 5,
+          "citations": 11,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0.4,
+            "copilot": 0.2,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "cloro.dev",
+            "count": 15
+          }
+        },
+        {
+          "rank": 7,
+          "brand": "ScraperAPI",
+          "domain": "scraperapi.com",
+          "score": 27.4,
+          "share_of_voice": 0.073,
+          "mention_rate": 0.32,
+          "citation_rate": 0.16,
+          "avg_position": 4.3,
+          "mentions": 8,
+          "citations": 4,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.4,
+            "gemini": 0.2,
+            "copilot": 0.2,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "scrapingbee.com",
+            "count": 9
+          }
+        },
+        {
+          "rank": 8,
+          "brand": "Zenserp",
+          "domain": "zenserp.com",
+          "score": 16.6,
+          "share_of_voice": 0.036,
+          "mention_rate": 0.16,
+          "citation_rate": 0.12,
+          "avg_position": 4.3,
+          "mentions": 4,
+          "citations": 3,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0.4,
+            "perplexity": 0.4,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "serpapi.com",
+            "count": 3
+          }
+        },
+        {
+          "rank": 9,
+          "brand": "SearchApi",
+          "domain": "searchapi.io",
+          "score": 16.4,
+          "share_of_voice": 0.036,
+          "mention_rate": 0.16,
+          "citation_rate": 0.08,
+          "avg_position": 4,
+          "mentions": 4,
+          "citations": 2,
+          "rank_delta": -4,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0.8,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "olostep.com",
+            "count": 7
+          }
+        },
+        {
+          "rank": 10,
+          "brand": "HasData",
+          "domain": "hasdata.com",
+          "score": 10.6,
+          "share_of_voice": 0.018,
+          "mention_rate": 0.08,
+          "citation_rate": 0.04,
+          "avg_position": 4.5,
+          "mentions": 2,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0.2,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "cloro.dev",
+            "count": 6
+          }
+        }
+      ],
+      "top_cited_domains": [
+        {
+          "hostname": "cloro.dev",
+          "count": 21
+        },
+        {
+          "hostname": "serpapi.com",
+          "count": 20
+        },
+        {
+          "hostname": "developers.google.com",
+          "count": 12
+        },
+        {
+          "hostname": "scrapingdog.com",
+          "count": 12
+        },
+        {
+          "hostname": "scrapingbee.com",
+          "count": 10
+        },
+        {
+          "hostname": "dataforseo.com",
+          "count": 9
+        },
+        {
+          "hostname": "brightdata.com",
+          "count": 8
+        },
+        {
+          "hostname": "openwebninja.com",
+          "count": 8
+        },
+        {
+          "hostname": "github.com",
+          "count": 7
+        },
+        {
+          "hostname": "olostep.com",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "slug": "web-analytics",
+      "name": "Web Analytics Platforms",
+      "description": "Product and marketing analytics platforms for websites and apps.",
+      "sample_size": {
+        "prompts": 5,
+        "responses": 25
+      },
+      "entries": [
+        {
+          "rank": 1,
+          "brand": "Google Analytics",
+          "domain": "google.com",
+          "score": 60.5,
+          "share_of_voice": 0.156,
+          "mention_rate": 0.8,
+          "citation_rate": 0,
+          "avg_position": 1.6,
+          "mentions": 20,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.4,
+            "gemini": 1,
+            "copilot": 0.6,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "reddit.com",
+            "count": 16
+          }
+        },
+        {
+          "rank": 2,
+          "brand": "Plausible",
+          "domain": "plausible.io",
+          "score": 59,
+          "share_of_voice": 0.148,
+          "mention_rate": 0.76,
+          "citation_rate": 0.2,
+          "avg_position": 2.4,
+          "mentions": 19,
+          "citations": 5,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 1,
+            "perplexity": 0.4,
+            "gemini": 0.8,
+            "copilot": 0.8,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "reddit.com",
+            "count": 14
+          }
+        },
+        {
+          "rank": 3,
+          "brand": "PostHog",
+          "domain": "posthog.com",
+          "score": 48.4,
+          "share_of_voice": 0.117,
+          "mention_rate": 0.6,
+          "citation_rate": 0.28,
+          "avg_position": 4.3,
+          "mentions": 15,
+          "citations": 7,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.4,
+            "gemini": 0.6,
+            "copilot": 0.6,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "reddit.com",
+            "count": 16
+          }
+        },
+        {
+          "rank": 4,
+          "brand": "Matomo",
+          "domain": "matomo.org",
+          "score": 46.9,
+          "share_of_voice": 0.125,
+          "mention_rate": 0.64,
+          "citation_rate": 0.16,
+          "avg_position": 3.6,
+          "mentions": 16,
+          "citations": 4,
+          "rank_delta": -1,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.6,
+            "gemini": 0.4,
+            "copilot": 0.6,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "reddit.com",
+            "count": 10
+          }
+        },
+        {
+          "rank": 5,
+          "brand": "Mixpanel",
+          "domain": "mixpanel.com",
+          "score": 38.7,
+          "share_of_voice": 0.109,
+          "mention_rate": 0.56,
+          "citation_rate": 0,
+          "avg_position": 4.2,
+          "mentions": 14,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.4,
+            "perplexity": 0.4,
+            "gemini": 0.6,
+            "copilot": 0.8,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "reddit.com",
+            "count": 12
+          }
+        },
+        {
+          "rank": 6,
+          "brand": "Fathom",
+          "domain": "usefathom.com",
+          "score": 38.6,
+          "share_of_voice": 0.109,
+          "mention_rate": 0.56,
+          "citation_rate": 0,
+          "avg_position": 3.3,
+          "mentions": 14,
+          "citations": 0,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.4,
+            "gemini": 0.6,
+            "copilot": 0.4,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "bootstrap.build",
+            "count": 11
+          }
+        },
+        {
+          "rank": 7,
+          "brand": "Amplitude",
+          "domain": "amplitude.com",
+          "score": 35.7,
+          "share_of_voice": 0.094,
+          "mention_rate": 0.48,
+          "citation_rate": 0.12,
+          "avg_position": 4.6,
+          "mentions": 12,
+          "citations": 3,
+          "rank_delta": -1,
+          "engines": {
+            "chatgpt": 0.4,
+            "perplexity": 0.4,
+            "gemini": 0.4,
+            "copilot": 0.6,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "reddit.com",
+            "count": 12
+          }
+        },
+        {
+          "rank": 8,
+          "brand": "Umami",
+          "domain": "umami.is",
+          "score": 28,
+          "share_of_voice": 0.078,
+          "mention_rate": 0.4,
+          "citation_rate": 0.04,
+          "avg_position": 5.3,
+          "mentions": 10,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.4,
+            "perplexity": 0.4,
+            "gemini": 0.4,
+            "copilot": 0.4,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "muroanalytics.com",
+            "count": 8
+          }
+        },
+        {
+          "rank": 9,
+          "brand": "Heap",
+          "domain": "heap.io",
+          "score": 16.2,
+          "share_of_voice": 0.039,
+          "mention_rate": 0.2,
+          "citation_rate": 0.04,
+          "avg_position": 5.4,
+          "mentions": 5,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0,
+            "gemini": 0.2,
+            "copilot": 0.2,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "reddit.com",
+            "count": 11
+          }
+        },
+        {
+          "rank": 10,
+          "brand": "Piwik PRO",
+          "domain": "piwik.pro",
+          "score": 10.7,
+          "share_of_voice": 0.023,
+          "mention_rate": 0.12,
+          "citation_rate": 0.04,
+          "avg_position": 6.3,
+          "mentions": 3,
+          "citations": 1,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0,
+            "copilot": 0.2,
+            "aimode": 0.2
+          },
+          "top_source": {
+            "hostname": "reddit.com",
+            "count": 3
+          }
+        }
+      ],
+      "top_cited_domains": [
+        {
+          "hostname": "reddit.com",
+          "count": 18
+        },
+        {
+          "hostname": "bootstrap.build",
+          "count": 13
+        },
+        {
+          "hostname": "posthog.com",
+          "count": 10
+        },
+        {
+          "hostname": "muroanalytics.com",
+          "count": 8
+        },
+        {
+          "hostname": "humblytics.com",
+          "count": 7
+        },
+        {
+          "hostname": "matomo.org",
+          "count": 7
+        },
+        {
+          "hostname": "visionlabs.com",
+          "count": 7
+        },
+        {
+          "hostname": "wpmailsmtp.com",
+          "count": 7
+        },
+        {
+          "hostname": "plausible.io",
+          "count": 6
+        },
+        {
+          "hostname": "computer.howstuffworks.com",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "slug": "web-scraping",
+      "name": "Web Scraping APIs",
+      "description": "General-purpose scraping and data-extraction APIs and platforms.",
+      "sample_size": {
+        "prompts": 5,
+        "responses": 25
+      },
+      "entries": [
+        {
+          "rank": 1,
+          "brand": "Bright Data",
+          "domain": "brightdata.com",
+          "score": 66.4,
+          "share_of_voice": 0.167,
+          "mention_rate": 0.76,
+          "citation_rate": 0.44,
+          "avg_position": 2,
+          "mentions": 19,
+          "citations": 11,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.4,
+            "gemini": 0.6,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "olostep.com",
+            "count": 16
+          }
+        },
+        {
+          "rank": 2,
+          "brand": "Apify",
+          "domain": "apify.com",
+          "score": 58.4,
+          "share_of_voice": 0.167,
+          "mention_rate": 0.76,
+          "citation_rate": 0.2,
+          "avg_position": 3.2,
+          "mentions": 19,
+          "citations": 5,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.8,
+            "perplexity": 0.4,
+            "gemini": 0.6,
+            "copilot": 1,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "scrapingbee.com",
+            "count": 16
+          }
+        },
+        {
+          "rank": 3,
+          "brand": "ScrapingBee",
+          "domain": "scrapingbee.com",
+          "score": 57.7,
+          "share_of_voice": 0.14,
+          "mention_rate": 0.64,
+          "citation_rate": 0.48,
+          "avg_position": 3.1,
+          "mentions": 16,
+          "citations": 12,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.2,
+            "gemini": 1,
+            "copilot": 0.8,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "scrapingbee.com",
+            "count": 19
+          }
+        },
+        {
+          "rank": 4,
+          "brand": "Firecrawl",
+          "domain": "firecrawl.dev",
+          "score": 50.9,
+          "share_of_voice": 0.123,
+          "mention_rate": 0.56,
+          "citation_rate": 0.44,
+          "avg_position": 3.3,
+          "mentions": 14,
+          "citations": 11,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.2,
+            "perplexity": 0.2,
+            "gemini": 0.8,
+            "copilot": 0.6,
+            "aimode": 1
+          },
+          "top_source": {
+            "hostname": "olostep.com",
+            "count": 16
+          }
+        },
+        {
+          "rank": 5,
+          "brand": "Oxylabs",
+          "domain": "oxylabs.io",
+          "score": 45.2,
+          "share_of_voice": 0.132,
+          "mention_rate": 0.6,
+          "citation_rate": 0.2,
+          "avg_position": 4.1,
+          "mentions": 15,
+          "citations": 5,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.4,
+            "perplexity": 0.2,
+            "gemini": 0.8,
+            "copilot": 0.8,
+            "aimode": 0.8
+          },
+          "top_source": {
+            "hostname": "olostep.com",
+            "count": 15
+          }
+        },
+        {
+          "rank": 6,
+          "brand": "ScraperAPI",
+          "domain": "scraperapi.com",
+          "score": 39.6,
+          "share_of_voice": 0.105,
+          "mention_rate": 0.48,
+          "citation_rate": 0.28,
+          "avg_position": 4.6,
+          "mentions": 12,
+          "citations": 7,
+          "rank_delta": 1,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0.4,
+            "gemini": 0.6,
+            "copilot": 0.2,
+            "aimode": 0.6
+          },
+          "top_source": {
+            "hostname": "olostep.com",
+            "count": 14
+          }
+        },
+        {
+          "rank": 7,
+          "brand": "Zyte",
+          "domain": "zyte.com",
+          "score": 34.5,
+          "share_of_voice": 0.105,
+          "mention_rate": 0.48,
+          "citation_rate": 0.04,
+          "avg_position": 3.8,
+          "mentions": 12,
+          "citations": 1,
+          "rank_delta": -1,
+          "engines": {
+            "chatgpt": 0.4,
+            "perplexity": 0.4,
+            "gemini": 0.6,
+            "copilot": 0.6,
+            "aimode": 0.4
+          },
+          "top_source": {
+            "hostname": "brightdata.com",
+            "count": 11
+          }
+        },
+        {
+          "rank": 8,
+          "brand": "ZenRows",
+          "domain": "zenrows.com",
+          "score": 19.7,
+          "share_of_voice": 0.044,
+          "mention_rate": 0.2,
+          "citation_rate": 0.16,
+          "avg_position": 5.2,
+          "mentions": 5,
+          "citations": 4,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0.6,
+            "perplexity": 0,
+            "gemini": 0.2,
+            "copilot": 0.2,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "designrush.com",
+            "count": 5
+          }
+        },
+        {
+          "rank": 9,
+          "brand": "Scrapfly",
+          "domain": "scrapfly.io",
+          "score": 14.1,
+          "share_of_voice": 0.018,
+          "mention_rate": 0.08,
+          "citation_rate": 0.16,
+          "avg_position": 3.5,
+          "mentions": 2,
+          "citations": 4,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0.4,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": {
+            "hostname": "olostep.com",
+            "count": 3
+          }
+        },
+        {
+          "rank": 10,
+          "brand": "Crawlbase",
+          "domain": "crawlbase.com",
+          "score": 0,
+          "share_of_voice": 0,
+          "mention_rate": 0,
+          "citation_rate": 0,
+          "avg_position": null,
+          "mentions": 0,
+          "citations": 0,
+          "rank_delta": 0,
+          "engines": {
+            "chatgpt": 0,
+            "perplexity": 0,
+            "gemini": 0,
+            "copilot": 0,
+            "aimode": 0
+          },
+          "top_source": null
+        }
+      ],
+      "top_cited_domains": [
+        {
+          "hostname": "scrapingbee.com",
+          "count": 21
+        },
+        {
+          "hostname": "brightdata.com",
+          "count": 17
+        },
+        {
+          "hostname": "olostep.com",
+          "count": 16
+        },
+        {
+          "hostname": "firecrawl.dev",
+          "count": 14
+        },
+        {
+          "hostname": "context.dev",
+          "count": 12
+        },
+        {
+          "hostname": "browserless.io",
+          "count": 9
+        },
+        {
+          "hostname": "scrapebadger.com",
+          "count": 9
+        },
+        {
+          "hostname": "designrush.com",
+          "count": 8
+        },
+        {
+          "hostname": "aimultiple.com",
+          "count": 7
+        },
+        {
+          "hostname": "scrapegraphai.com",
+          "count": 7
+        }
+      ]
+    }
+  ]
+}

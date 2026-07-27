@@ -1,0 +1,51 @@
+name: Weekly snapshot
+
+# The monitor aggregate cron computes the new week at 12:00 UTC on Mondays.
+# This runs at 14:00 to leave headroom; build-snapshot.mjs refuses to write a
+# half-finished run (it checks every category reports the same week_start),
+# so a slow aggregate fails the job rather than committing a torn snapshot.
+on:
+  schedule:
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Print the snapshot without committing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Build snapshot
+        run: |
+          node scripts/build-snapshot.mjs \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Commit
+        if: ${{ !inputs.dry_run }}
+        run: |
+          if git diff --quiet; then
+            echo "No change — the aggregate has not published a new week yet."
+            exit 0
+          fi
+          week=$(node -p "require('./index.json').latest")
+          git config user.name "cloro-bot"
+          git config user.email "bot@cloro.dev"
+          git add snapshots index.json
+          git commit -m "data: leaderboard snapshot for week of ${week}"
+          git push
