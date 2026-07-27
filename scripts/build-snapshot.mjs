@@ -4,9 +4,8 @@
 //
 // Run by .github/workflows/snapshot.yml every Monday, and runnable by hand:
 //
-//   node scripts/build-snapshot.mjs                     # write
-//   node scripts/build-snapshot.mjs --dry-run           # print, write nothing
-//   FEED_BASE=http://localhost:3000 node scripts/...    # point elsewhere
+//   FEED_BASE=<monitor-url> node scripts/build-snapshot.mjs
+//   FEED_BASE=<monitor-url> node scripts/build-snapshot.mjs --dry-run
 //
 // Deliberately stdlib-only so the workflow needs no install step.
 //
@@ -28,10 +27,19 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SNAPSHOT_DIR = join(ROOT, "snapshots");
 
-const FEED_BASE = (process.env.FEED_BASE ?? "https://REDACTED").replace(
-  /\/+$/,
-  "",
-);
+// The monitor host deliberately does not appear in this file. It is not a
+// secret — the API is public and rate-limited — but the point of this repo is
+// that consumers read GitHub instead of our infrastructure, and a default here
+// would advertise the origin to exactly the audience we moved off it. CI
+// supplies it from the FEED_BASE repository variable.
+const FEED_BASE = process.env.FEED_BASE?.replace(/\/+$/, "");
+if (!FEED_BASE) {
+  throw new Error(
+    "FEED_BASE is not set. It must point at the monitor app serving the " +
+      "leaderboard API. In CI it comes from the FEED_BASE repository " +
+      "variable; locally, export it before running.",
+  );
+}
 const SCHEMA_VERSION = "1.0";
 const DRY_RUN = process.argv.includes("--dry-run");
 

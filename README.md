@@ -114,19 +114,20 @@ re-runnable job with a public log.
 
 That last step matters more than it looks: the site is a static build that
 reads this dataset at build time, so a committed snapshot is not a published
-one until a Pages build runs. It needs one repository secret:
+one until a Pages build runs. It needs one repository variable and one secret:
 
-| Secret | Value |
-| --- | --- |
-| `PAGES_DEPLOY_HOOK` | Cloudflare Pages → `landing` → Settings → Builds & deployments → Deploy hook, on the production branch |
+| Name | Kind | Value |
+| --- | --- | --- |
+| `FEED_BASE` | variable | Base URL of the monitor app serving the leaderboard API |
+| `PAGES_DEPLOY_HOOK` | secret | Cloudflare Pages → `landing` → Settings → Builds & deployments → Deploy hook, on the production branch |
 
 The step only fires when a snapshot was actually committed, so an unchanged
 week costs nothing. If the secret is missing on a week that *did* change, the
 job fails loudly rather than leaving fresh data stranded in the repo.
 
 ```bash
-node scripts/build-snapshot.mjs            # write
-node scripts/build-snapshot.mjs --dry-run  # print, write nothing
+FEED_BASE=<monitor-url> node scripts/build-snapshot.mjs            # write
+FEED_BASE=<monitor-url> node scripts/build-snapshot.mjs --dry-run  # print only
 ```
 
 Stdlib-only, no install step. The script refuses to write when categories

@@ -32,6 +32,11 @@ jobs:
           node-version: "22"
 
       - name: Build snapshot
+        env:
+          # A repository variable, not a secret: the monitor API is public and
+          # rate-limited. It lives outside the tree so this repo doesn't
+          # advertise the origin host that consumers were moved off.
+          FEED_BASE: ${{ vars.FEED_BASE }}
         run: |
           node scripts/build-snapshot.mjs \
             ${{ inputs.dry_run && '--dry-run' || '' }}
