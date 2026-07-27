@@ -40,7 +40,7 @@ if (!FEED_BASE) {
       "variable; locally, export it before running.",
   );
 }
-const SCHEMA_VERSION = "1.0";
+const SCHEMA_VERSION = "1.1";
 const DRY_RUN = process.argv.includes("--dry-run");
 
 const feed = (path = "") => `${FEED_BASE}/api/public/leaderboard${path}`;
@@ -97,6 +97,32 @@ function entry(e) {
   };
 }
 
+// Cross-category datasets. `sources` is the only one the category snapshots
+// can't reproduce — they carry a top-10 cited-domain list each, this carries
+// every cited domain. Both are camelCase on the wire and snake_case here, same
+// as the entries above.
+const sourceRow = (r) => ({
+  hostname: r.hostname,
+  citations: r.citations,
+  categories: r.categories,
+  engines: r.engines,
+  is_tracked_brand: r.isTrackedBrand,
+  sample_title: r.sampleTitle,
+});
+
+const moverRow = (r) => ({
+  brand: r.brand,
+  domain: r.domain,
+  category_slug: r.categorySlug,
+  category_name: r.categoryName,
+  rank: r.rank,
+  previous_rank: r.previousRank,
+  delta: r.delta,
+  score: r.score,
+});
+
+const DATASETS = { sources: sourceRow, movers: moverRow };
+
 async function build() {
   const index = await getJson(feed());
   if (!index.weekStart || !index.categories?.length) {
@@ -130,6 +156,25 @@ async function build() {
     });
   }
 
+  // Optional: a monitor deploy predating the datasets API 404s, and the week
+  // is still worth publishing without them. Absent rather than empty, so a
+  // consumer can tell "not published" from "published and empty".
+  const datasets = {};
+  for (const [key, map] of Object.entries(DATASETS)) {
+    const payload = await getJson(feed(`/datasets/${key}`), { optional: true });
+    if (!payload) {
+      console.error(`[warn] dataset "${key}" unavailable — omitting it`);
+      continue;
+    }
+    if (payload.weekStart !== index.weekStart) {
+      throw new Error(
+        `dataset ${key} is week ${payload.weekStart} but the index says ` +
+          `${index.weekStart} — the aggregate run is mid-flight`,
+      );
+    }
+    datasets[key] = { count: payload.count, rows: payload.rows.map(map) };
+  }
+
   return {
     meta: {
       schema_version: SCHEMA_VERSION,
@@ -152,6 +197,7 @@ async function build() {
     },
     engines: engines.map((e) => ({ key: e.key, label: e.label })),
     categories,
+    ...(Object.keys(datasets).length ? { datasets } : {}),
   };
 }
 

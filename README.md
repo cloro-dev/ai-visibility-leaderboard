@@ -31,7 +31,7 @@ curl -s https://raw.githubusercontent.com/cloro-dev/ai-visibility-leaderboard/ma
 ```jsonc
 {
   "meta": {
-    "schema_version": "1.0",
+    "schema_version": "1.1",
     "week_start": "2026-07-27",     // the Monday (UTC) this week covers
     "generated_at": "...",           // when this file was written
     "methodology_version": 1,        // bump = scoring changed, weeks not comparable
@@ -63,7 +63,41 @@ curl -s https://raw.githubusercontent.com/cloro-dev/ai-visibility-leaderboard/ma
       ],
       "top_cited_domains": [{ "hostname": "cloro.dev", "count": 21 }]
     }
-  ]
+  ],
+
+  // Cross-category, since schema 1.1. Absent (not empty) when a week was
+  // published before these existed — so "not published" stays distinguishable
+  // from "published and empty".
+  "datasets": {
+    "sources": {                     // every domain the engines cited, not the
+      "count": 140,                  // per-category top-10 above
+      "rows": [
+        {
+          "hostname": "g2.com",
+          "citations": 21,
+          "categories": ["serp-apis"],
+          "engines": ["chatgpt", "perplexity"],
+          "is_tracked_brand": false, // true = a ranked brand cited as its own source
+          "sample_title": "Best SERP APIs"
+        }
+      ]
+    },
+    "movers": {                      // week-over-week rank changes
+      "count": 38,
+      "rows": [
+        {
+          "brand": "Serpstat",
+          "domain": "serpstat.com",
+          "category_slug": "backlink-analysis",
+          "category_name": "Backlink Analysis",
+          "rank": 3,
+          "previous_rank": 7,
+          "delta": 4,                // positive = moved up
+          "score": 41.2
+        }
+      ]
+    }
+  }
 }
 ```
 
