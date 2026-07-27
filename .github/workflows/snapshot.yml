@@ -37,10 +37,16 @@ jobs:
             ${{ inputs.dry_run && '--dry-run' || '' }}
 
       - name: Commit
+        id: commit
         if: ${{ !inputs.dry_run }}
         run: |
-          if git diff --quiet; then
+          # --porcelain rather than `git diff` so the check covers untracked
+          # files too. Today a new week always rewrites the tracked index.json
+          # as well, so `git diff` would catch it — this just doesn't rely on
+          # that staying true.
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No change — the aggregate has not published a new week yet."
+            echo "committed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           week=$(node -p "require('./index.json').latest")
@@ -49,3 +55,31 @@ jobs:
           git add snapshots index.json
           git commit -m "data: leaderboard snapshot for week of ${week}"
           git push
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+          echo "week=${week}" >> "$GITHUB_OUTPUT"
+
+      # cloro.dev is a static build that reads this dataset at build time, so
+      # committing a snapshot does not by itself put it on the site — a Pages
+      # build has to run. Without this step the leaderboard silently freezes at
+      # whatever week was current the last time the site happened to deploy,
+      # which looks like working software.
+      #
+      # Gated on an actual commit so an unchanged week doesn't rebuild the site
+      # for nothing.
+      - name: Rebuild cloro.dev
+        if: ${{ steps.commit.outputs.committed == 'true' }}
+        env:
+          HOOK: ${{ secrets.PAGES_DEPLOY_HOOK }}
+        run: |
+          # Fail rather than warn: we only reach here having just published a
+          # week, so a missing hook means the data is live in the repo and
+          # invisible on the site — exactly the silent staleness this exists to
+          # prevent. Note it can only fail on a week that actually changed, so
+          # an unset secret cannot redden a routine no-op run.
+          if [ -z "$HOOK" ]; then
+            echo "::error::PAGES_DEPLOY_HOOK is not set. Week ${{ steps.commit.outputs.week }} is committed but cloro.dev will not show it until a Pages build runs. Add the deploy hook URL as a repository secret."
+            exit 1
+          fi
+          code=$(curl -sS -X POST -o /dev/null -w '%{http_code}' "$HOOK")
+          echo "Deploy hook responded ${code} for week ${{ steps.commit.outputs.week }}."
+          [ "$code" -ge 200 ] && [ "$code" -lt 300 ]

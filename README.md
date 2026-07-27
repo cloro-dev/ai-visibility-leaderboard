@@ -108,8 +108,21 @@ name cloro and link either this repository or
 ## How it is built
 
 `.github/workflows/snapshot.yml` runs every Monday at 14:00 UTC, calls
-`scripts/build-snapshot.mjs`, and commits the result. Every snapshot is
-therefore a re-runnable job with a public log.
+`scripts/build-snapshot.mjs`, commits the result, and then triggers a rebuild
+of <https://cloro.dev/ai-visibility/>. Every snapshot is therefore a
+re-runnable job with a public log.
+
+That last step matters more than it looks: the site is a static build that
+reads this dataset at build time, so a committed snapshot is not a published
+one until a Pages build runs. It needs one repository secret:
+
+| Secret | Value |
+| --- | --- |
+| `PAGES_DEPLOY_HOOK` | Cloudflare Pages → `landing` → Settings → Builds & deployments → Deploy hook, on the production branch |
+
+The step only fires when a snapshot was actually committed, so an unchanged
+week costs nothing. If the secret is missing on a week that *did* change, the
+job fails loudly rather than leaving fresh data stranded in the repo.
 
 ```bash
 node scripts/build-snapshot.mjs            # write
