@@ -33,10 +33,11 @@ jobs:
 
       - name: Build snapshot
         env:
-          # A repository variable, not a secret: the monitor API is public and
-          # rate-limited. It lives outside the tree so this repo doesn't
-          # advertise the origin host that consumers were moved off.
-          FEED_BASE: ${{ vars.FEED_BASE }}
+          # A secret rather than a variable, despite not being a credential:
+          # this repo is public, so its Actions logs are public, and the script
+          # names the URL when a fetch fails. A secret is masked to *** in logs;
+          # a variable would publish the origin host on the first hiccup.
+          FEED_BASE: ${{ secrets.FEED_BASE }}
         run: |
           node scripts/build-snapshot.mjs \
             ${{ inputs.dry_run && '--dry-run' || '' }}

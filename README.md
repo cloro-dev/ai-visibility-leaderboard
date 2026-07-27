@@ -114,11 +114,11 @@ re-runnable job with a public log.
 
 That last step matters more than it looks: the site is a static build that
 reads this dataset at build time, so a committed snapshot is not a published
-one until a Pages build runs. It needs one repository variable and one secret:
+one until a Pages build runs. It needs two repository secrets:
 
 | Name | Kind | Value |
 | --- | --- | --- |
-| `FEED_BASE` | variable | Base URL of the monitor app serving the leaderboard API |
+| `FEED_BASE` | secret | Base URL of the monitor app serving the leaderboard API. A secret, not a variable: this repo's Actions logs are public and the script names the URL on a failed fetch — secrets are masked there, variables are not. |
 | `PAGES_DEPLOY_HOOK` | secret | Cloudflare Pages → `landing` → Settings → Builds & deployments → Deploy hook, on the production branch |
 
 The step only fires when a snapshot was actually committed, so an unchanged
