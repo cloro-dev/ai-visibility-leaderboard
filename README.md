@@ -129,15 +129,13 @@ Data is **CC BY 4.0**, the code in `scripts/` is **MIT**. Attribution should
 name cloro and link either this repository or
 <https://cloro.dev/ai-visibility/>.
 
-```bibtex
-@misc{cloro_ai_visibility_leaderboard,
-  title        = {AI Visibility Leaderboard},
-  author       = {{cloro}},
-  year         = {2026},
-  howpublished = {\url{https://github.com/cloro-dev/ai-visibility-leaderboard}},
-  note         = {Weekly snapshots of brand visibility across AI assistants}
-}
-```
+Use the **Cite this repository** button in the sidebar for a ready APA or
+BibTeX reference — it is generated from `CITATION.cff`, so it stays in step
+with the citation shown on the site.
+
+To cite one week rather than the dataset as a whole, keep that reference and
+point the URL at its file under `snapshots/`. The weekly file is the part that
+doesn't change; the rendered page shows a new week every Monday.
 
 ## How it is built
 
@@ -168,4 +166,13 @@ Stdlib-only, no install step. The script refuses to write when categories
 disagree about which week they belong to, so a snapshot taken mid-aggregate
 fails the job instead of committing torn data.
 
-Corrections and questions: open an issue.
+## Corrections and suggestions
+
+Open an issue — there are templates for [suggesting a brand or
+category](https://github.com/cloro-dev/ai-visibility-leaderboard/issues/new?template=roster-suggestion.yml)
+and for [reporting a wrong
+number](https://github.com/cloro-dev/ai-visibility-leaderboard/issues/new?template=data-correction.yml).
+
+A missing brand is the failure worth reporting: rosters are fixed, so a brand
+that isn't on one can't rank, and its absence looks like nothing at all rather
+than a low score.

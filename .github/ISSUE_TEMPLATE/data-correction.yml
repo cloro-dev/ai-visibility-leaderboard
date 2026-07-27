@@ -1,0 +1,34 @@
+name: Report a data error
+description: A number in a snapshot that looks wrong
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Scores are deterministic, so a wrong number means a wrong input — a
+        brand-name match that shouldn't have counted, a citation attributed to
+        the wrong domain. Those are worth fixing at the source.
+  - type: input
+    id: week
+    attributes:
+      label: Week
+      description: The `week_start` of the snapshot, or its filename.
+      placeholder: "2026-07-27"
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Category and brand
+      placeholder: serp-apis / SerpApi
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What looks wrong
+      description: >-
+        The field and the value you'd expect. If it's a mention or citation
+        count, the engine answer that contradicts it is the most useful evidence.
+    validations:
+      required: true

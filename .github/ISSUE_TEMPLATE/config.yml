@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Browse the leaderboard
+    url: https://cloro.dev/ai-visibility/
+    about: The rendered rankings, with the methodology behind the score.
+  - name: Methodology
+    url: https://cloro.dev/ai-visibility/methodology/
+    about: How the score is calculated, which engines are asked, and how often.

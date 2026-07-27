@@ -1,0 +1,39 @@
+# Renders GitHub's native "Cite this repository" button in the sidebar, which
+# emits APA and BibTeX matching what cloro.dev/ai-visibility/ shows on the page.
+# Both must agree: someone citing from the site and someone citing from here
+# should produce the same reference.
+#
+# This describes the dataset as a whole. To cite one week specifically, keep the
+# reference below and point the URL at that week's file under snapshots/ — the
+# weekly file is the thing that doesn't change.
+cff-version: 1.2.0
+title: AI Visibility Leaderboard
+message: >-
+  If you use this data, please cite it as below and link either this repository
+  or https://cloro.dev/ai-visibility/.
+type: dataset
+authors:
+  - name: cloro
+    website: "https://cloro.dev"
+repository-code: "https://github.com/cloro-dev/ai-visibility-leaderboard"
+url: "https://cloro.dev/ai-visibility/"
+abstract: >-
+  A weekly measurement of which brands AI assistants actually recommend. Every
+  Monday, ChatGPT, Perplexity, Gemini, Copilot and Google AI Mode are asked the
+  same buyer-intent questions across twelve software categories, and the answers
+  are scored for which brands they mention and which they cite. Each week is
+  published as a dated snapshot, so a citation resolves to the data as it stood
+  rather than to a page that has since moved on. Detection is deterministic
+  string and URL matching, not an LLM judgement, so the same answers always
+  produce the same score.
+keywords:
+  - ai visibility
+  - ai search
+  - generative engine optimization
+  - llm
+  - brand monitoring
+  - chatgpt
+  - perplexity
+  - dataset
+license: CC-BY-4.0
+date-released: "2026-07-27"

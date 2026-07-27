@@ -1,0 +1,30 @@
+name: Suggest a brand or category
+description: A brand that should be tracked, or a category worth adding
+labels: ["roster"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Each category tracks a fixed roster — a brand outside it can't rank, so
+        an omission is invisible rather than a low score. Flagging one here is
+        the fix.
+  - type: input
+    id: brand
+    attributes:
+      label: Brand or category
+      placeholder: e.g. Acme Rank Tracker, or "Technical SEO Audit Tools"
+    validations:
+      required: true
+  - type: input
+    id: domain
+    attributes:
+      label: Primary domain
+      description: Used to detect citations, so it must be the brand's own site.
+      placeholder: acme.com
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs
+      description: >-
+        Rosters hold recognizable brands in a vertical, so anything showing it
+        is one — market presence, review-site listings, coverage.
