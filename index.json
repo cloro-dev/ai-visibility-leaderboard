@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
-  "latest": "2026-08-17",
-  "count": 4,
+  "latest": "2026-08-24",
+  "count": 5,
   "snapshots": [
     {
       "week_start": "2026-07-27",
@@ -30,6 +30,13 @@
       "categories": 12,
       "brands": 120,
       "generated_at": "2026-08-17T14:11:15.624Z"
+    },
+    {
+      "week_start": "2026-08-24",
+      "path": "snapshots/2026-08-24.json",
+      "categories": 12,
+      "brands": 120,
+      "generated_at": "2026-08-24T14:19:16.282Z"
     }
   ]
 }
