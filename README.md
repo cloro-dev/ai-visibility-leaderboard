@@ -2,11 +2,14 @@
 
 A public weekly dataset of which brands AI assistants actually recommend.
 
-Every Monday, [cloro](https://cloro.dev) asks ChatGPT, Perplexity, Gemini,
-Copilot, and Google AI Mode the same buyer-intent questions across twelve
-software categories, and measures which brands the answers **mention** and
-which they **cite**. Each week is committed here as a dated, immutable
-snapshot.
+Every Monday, [cloro](https://cloro.dev) asks ChatGPT, Gemini, Google AI Mode
+and Bing AI Mode the same buyer-intent questions across twelve software
+categories, and measures which brands the answers **mention** and which they
+**cite**. Each week is committed here as a dated, immutable snapshot.
+
+The engine set changes over time. Weeks before 2026-11-09 include Copilot and
+Perplexity and no Bing AI Mode. The `engines` array in each snapshot lists the
+engines of that week.
 
 Rendered at **<https://cloro.dev/ai-visibility/>**.
 
