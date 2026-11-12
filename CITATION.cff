@@ -19,8 +19,9 @@ repository-code: "https://github.com/cloro-dev/ai-visibility-leaderboard"
 url: "https://cloro.dev/ai-visibility/"
 abstract: >-
   A weekly measurement of which brands AI assistants actually recommend. Every
-  Monday, ChatGPT, Perplexity, Gemini, Copilot and Google AI Mode are asked the
-  same buyer-intent questions across twelve software categories, and the answers
+  Monday, ChatGPT, Gemini, Google AI Mode and Bing AI Mode are asked the same
+  buyer-intent questions across twelve software categories (weeks before
+  2026-11-09 also include Copilot and Perplexity), and the answers
   are scored for which brands they mention and which they cite. Each week is
   published as a dated snapshot, so a citation resolves to the data as it stood
   rather than to a page that has since moved on. Detection is deterministic
@@ -33,7 +34,6 @@ keywords:
   - llm
   - brand monitoring
   - chatgpt
-  - perplexity
   - dataset
 license: CC-BY-4.0
 date-released: "2026-07-27"
